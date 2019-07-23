@@ -98,7 +98,7 @@ handleSubmit = (event) => {
         console.info('Valid Form',this.state);
         try {
           const response = (axios.post('http://localhost:4000', { posted_data: JSON.stringify(this.state) }));
-          console.log(' Returned data:', response.then(result => {return result.data}));
+          //console.log(' Returned data:', response.then(result => {return result.data}));
 
         } catch (e) {
           console.log(` Axios request failed: ${e}`);
