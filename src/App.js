@@ -124,7 +124,7 @@ render () {
         </h1>
        </header>
        <body>
-         <form onSubmit={this.handleSubmit} className="form-style-2" method="POST" action="http://18.222.97.252:4000">
+         <form onSubmit={this.handleSubmit} className="form-style-2" method="POST" action="http://18.191.211.164:4000">
            <p>hi user, this is a dummy message. TQ</p>
            <p><span className="required">*</span>Required</p>
            <div>
